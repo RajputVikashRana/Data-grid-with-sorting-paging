@@ -14,9 +14,8 @@ option (property) to run paging and sorting.
  // paging parameter
  
  
- var options = new PagingOptions
- 
-            {
+     var options = new PagingOptions
+            {     
             
                 PageIndex = pageIndex,
                 
@@ -24,18 +23,16 @@ option (property) to run paging and sorting.
                 
                 SortField = sortField,
                 
-                SortOrder = sortOrder,
-                
+                SortOrder = sortOrder,                
             };
     
-    {
-    
      ViewBag.RecordCount = options.RecordCount;
+     
      ViewBag.PageCount = options.PageCount;
+     
      ViewBag.LowerBound = options.LowerBound;
+     
      ViewBag.UpperBound = options.UpperBound;
-   }
-
 
 5. Add Html tfoot in grid footer section for paging. (see the html file)
 6. Call bindgrid method to bind paging and sorting 
