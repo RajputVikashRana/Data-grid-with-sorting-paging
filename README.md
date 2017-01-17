@@ -41,5 +41,34 @@ option (property) to run paging and sorting.
 
 
 
+Set prorpty from code
+
+Use for paging show/hide
+ Paging: false,     
+
+-- Start from page 1
+PageIndex: 1,       
+
+-- Total number of record display
+PageSize: 10,       
+
+-- Sortfield parameter
+SortField: null,    
+
+-- Sort order 
+SortOrder: null,    
+
+-- Total number of records.
+RecordCount: null,  
+
+-- Total page
+PageCount: null,    
+
+-- Starting point
+LowerBound: null,   
+
+-- Last point
+UpperBound: null    
+
 Datagrid js file is reusable component. 
             
