@@ -1,4 +1,4 @@
-# Data-grid-with-sorting-paging using jquery
+# Data Grid with sorting paging using jquery
 Paging and sorting using jquery
 
 User can use datagrid js file for paging and sorting using jquery. Put js file in code, add html with grid and just pass paging
