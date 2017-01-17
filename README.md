@@ -12,13 +12,21 @@ option (property) to run paging and sorting.
  4. To pass or bind js property Like
  
  // paging parameter
+ 
  var options = new PagingOptions
+ 
             {
+            
                 PageIndex = pageIndex,
+                
                 PageSize = pageSize,
+                
                 SortField = sortField,
+                
                 SortOrder = sortOrder,
+                
             };
+            
             
 ViewBag.RecordCount = options.RecordCount;
 ViewBag.PageCount = options.PageCount;
