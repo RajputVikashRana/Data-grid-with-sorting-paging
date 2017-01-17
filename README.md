@@ -27,14 +27,14 @@ option (property) to run paging and sorting.
                 SortOrder = sortOrder,
                 
             };
-                        
-ViewBag.RecordCount = options.RecordCount;
-
-ViewBag.PageCount = options.PageCount;
-
-ViewBag.LowerBound = options.LowerBound;
-
-ViewBag.UpperBound = options.UpperBound;
+    
+    {
+    
+     ViewBag.RecordCount = options.RecordCount;
+     ViewBag.PageCount = options.PageCount;
+     ViewBag.LowerBound = options.LowerBound;
+     ViewBag.UpperBound = options.UpperBound;
+   }
 
 
 5. Add Html tfoot in grid footer section for paging. (see the html file)
