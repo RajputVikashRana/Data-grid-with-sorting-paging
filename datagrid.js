@@ -36,7 +36,7 @@
                 $("#page-count").html($.fn.dataGrid.PageCount);
                 $("#page-index").html($.fn.dataGrid.PageIndex);
                 $("#page-size").find("label").html($.fn.dataGrid.PageSize);
-            }
+            }            
         };
 
         $.dataGrid.PagingTrigger = function () {
